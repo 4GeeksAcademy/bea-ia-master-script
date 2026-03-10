@@ -6,7 +6,8 @@
 
 ## 📎 Ejemplo:
 
-```Javascript
+```ts
 let output = isEqualTo(11, 10);
 console.log(output); // --> false
 ```
+

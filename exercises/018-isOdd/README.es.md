@@ -6,7 +6,8 @@
 
 ## 📎 Ejemplo:
 
-```Javascript
+```ts
 let output = isOdd(9);
 console.log(output); // --> true
 ```
+

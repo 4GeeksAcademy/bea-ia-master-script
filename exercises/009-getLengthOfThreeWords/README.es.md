@@ -6,7 +6,7 @@
 
 ## 📎 Ejemplo:
 
-```Javascript
+```ts
 let output = getLengthOfThreeWords('some', 'other', 'words');
 console.log(output); // --> 14
 ```
@@ -14,3 +14,4 @@ console.log(output); // --> 14
 ## 💡 Pista: 
 
 + Recuerda usar la función `length` para saber la longitud de una cadena/string.
+

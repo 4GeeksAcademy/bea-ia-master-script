@@ -6,7 +6,8 @@
 
 ## 📎 Ejemplo:
 
-```Javascript
+```ts
 let output = isGreaterThanTen(11);
 console.log(output); // --> true
 ```
+

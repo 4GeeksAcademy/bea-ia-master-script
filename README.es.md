@@ -1,67 +1,75 @@
 <!-- hide -->
-# Tutorial Master JavaScript de 4Geeks Academy
+# Master de Skills TypeScript en 4Geeks Academy
 
-> Por [@alesanchezr](https://twitter.com/alesanchezr) y [otros colaboradores](https://github.com/4GeeksAcademy/master-javascript-programming-exercises/graphs/contributors) de [4Geeks Academy](https://4geeksacademy.com/)
+> Por [@alesanchezr](https://twitter.com/alesanchezr) y [otros colaboradores](https://github.com/4GeeksAcademy/master-javascript-programming-exercises/graphs/contributors) de [4Geeks Academy](https://4geeksacademy.co/)
 <!-- endhide -->
 
-### 160 ejercicios de JavaScript
+### 170 ejercicios autocorregidos de TypeScript
 
-Selección completa de ejercicios de JavaScript interactivos y con calificación automática, donde pondrás tus habilidades de resolución de problemas al límite y aprenderás muchos de los métodos más populares de JavaScript.
-
-> Un punto clave para aprender en el mundo de la programación es que el mismo problema puede tener varias soluciones válidas, lo importante que debes entender es la lógica y los principios detrás de cada solución.
+Ejercicios pr�cticos enfocados en funciones, colecciones y datos estructurados de tipo objeto en TypeScript.
 
 <!-- hide -->
 
-## Instalación en un clic (recomendado)
+## Instalaci�n en un clic
 
-Puedes empezar estos ejercicios en pocos segundos haciendo clic en: [Abrir en Codespaces](https://codespaces.new/?repo=4GeeksAcademy/master-javascript-programming-exercises) (recomendado) o [Abrir en Gitpod](https://gitpod.io#https://github.com/4GeeksAcademy/master-javascript-programming-exercises).
+Abre en [Codespaces](https://codespaces.new/?repo=4GeeksAcademy/master-javascript-programming-exercises) o [Gitpod](https://gitpod.io#https://github.com/4GeeksAcademy/master-javascript-programming-exercises).
 
-> Una vez ya tengas abierto VSCode los ejercicios deberían empezar automáticamente, si esto no sucede puedes intentar empezar los ejercicios escribiendo este comando en tu terminal: `$ learnpack start`
+## Instalaci�n local
 
-## Instalación local
-
-Clona el repositorio en tu ambiente local y sigue los siguientes pasos:
-
-1. Instala LearnPack, el package manager para los tutoriales interactivos y el plugin de compilación para LearnPack, asegúrate también de tener node.js 14:
+1. Instala LearnPack:
 
 ```bash
-$ npm i @learnpack/learnpack -g
+npm i @learnpack/learnpack -g
 ```
 
 2. Instala el plugin local de TypeScript para LearnPack:
 
 ```bash
-$ learnpack plugins:install file:$(pwd)/learnpack-typescript-plugin
+learnpack plugins:install file:$(pwd)/learnpack-typescript-plugin
 ```
 
-3. Inicializa el tutorial/exercises ejecutando el siguiente comando al mismo nivel en el que se encuentra tu archivo learn.json: 
+3. Inicia los ejercicios:
 
 ```bash
-$ learnpack start
+learnpack start
 ```
-
 <!-- endhide -->
 
-## ¿Cómo están organizados estos ejercicios?
+## Bloques curriculares
 
-Cada ejercicio es una pequeña aplicación de React que contiene los siguientes archivos:
+### Skill 7.2: Aprender a nombrar/etiquetar flujos con funciones
 
-- **app.ts**: Representa el archivo TypeScript de entrada que ejecutará la computadora (LearnPack lo compila a `app.js` antes de correr los tests).
-- **README.md**: Contiene las instrucciones del ejercicio.
-- **test.js**: Contiene el script del test para el ejercicio (no es necesario que abras este archivo).
+- **Rango:** `001-042`
+- **Enfoque:** declaraci�n de funciones, par�metros, tipo de retorno, procedimientos `void`, datos primitivos.
+- **Dificultad:** principiante a intermedio-bajo.
 
-> Nota: Estos ejercicios tienen calificación automática. Los tests son muy rígidos y estrictos, mi recomendación es que no prestes demasiada atención a los tests y los uses solo como una sugerencia o podrías frustrarte.
+### Skill 8.1: Colecciones (arrays y matrices)
 
-## Colaboradores
- 
-Gracias a estas personas maravillosas ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
+- **Rango:** `043-115`
+- **Enfoque:** recorrido de arreglos, transformaciones, filtros, agregaciones, acceso/transformaci�n de matrices, b�squeda binaria.
+- **Dificultad:** principiante a intermedio.
 
-1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribución: (programador) 💻 (idea) 🤔, (build-tests) ⚠️ , (pull-request-review) 🤓 (build-tutorial) ✅ (documentación) 📖
+### Skill 8.3: Trabajar datos estructurados de tipo objeto en TypeScript
 
-2. [Paolo (plucodev)](https://github.com/plucodev), contribución: (bug reports) 🐛, (programador), (traducción) 🌎
+- **Rango:** `116-170`
+- **Enfoque:** interfaces, objetos literales vs interfaces, propiedades opcionales, datos anidados, mutaci�n vs inmutabilidad, paso por valor/referencia.
+- **Dificultad:** intermedio.
 
-3. [Ricardo Rodriguez (RickRodriguez8080)](https://github.com/RickRodriguez8080) contribución: (build-tutorial) ✅, (documentación) 📖
+## Tabla de trazabilidad
 
-Este proyecto sigue la especificación [all-contributors](https://github.com/kentcdodds/all-contributors). ¡Todas las contribuciones son bienvenidas!
+| Skill | Rango | Objetivos principales | Dificultad |
+|---|---|---|---|
+| 7.2 | 001-042 | Funciones, par�metros, retornos, procedimientos `void` | Principiante -> Intermedio bajo |
+| 8.1 | 043-115 | Arrays, matrices, transformaciones y algoritmos de b�squeda | Principiante -> Intermedio |
+| 8.3 | 116-170 | Objetos tipados, interfaces, campos opcionales, manipulaci�n de datos | Intermedio |
 
-Este y otros ejercicios son usados para [aprender a programar](https://4geeksacademy.com/es/aprender-a-programar/aprender-a-programar-desde-cero) por parte de los alumnos de 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) realizado por [Alejandro Sánchez](https://twitter.com/alesanchezr) y muchos otros contribuyentes. Conoce más sobre nuestros [Cursos de Programación](https://4geeksacademy.com/es/curso-de-programacion-desde-cero?lang=es) para convertirte en [Full Stack Developer](https://4geeksacademy.com/es/coding-bootcamps/desarrollador-full-stack/?lang=es), o nuestro [Data Science Bootcamp](https://4geeksacademy.com/es/coding-bootcamps/curso-datascience-machine-learning).
+## Contrato de archivos por ejercicio
+
+Cada ejercicio contiene:
+
+1. `app.ts`: fuente oficial del estudiante (solo prearmado).
+2. `app.js`: entry runtime para el bot�n `Run` de LearnPack.
+3. `README.md` + `README.es.md`: instrucciones.
+4. `test.js`: script de evaluaci�n autom�tica.
+
+`app.ts` y `app.js` se mantienen intencionalmente como plantillas iniciales (sin l�gica resuelta).

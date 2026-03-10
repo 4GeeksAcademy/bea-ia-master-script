@@ -6,7 +6,8 @@
 
 ## 📎 Example:
 
-```Javascript
+```ts
 let output = cube(3);
 console.log(output); // --> 27
 ```
+

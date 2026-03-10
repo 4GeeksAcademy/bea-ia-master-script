@@ -6,7 +6,8 @@
 
 ## 📎 Example:
 
-```Javascript
+```ts
 let output = isEvenLength('wow');
 console.log(output); // --> false
 ```
+

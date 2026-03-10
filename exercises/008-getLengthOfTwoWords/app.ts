@@ -1,4 +1,6 @@
-function getLengthOfTwoWords(word1, word2) {
+function getLengthOfTwoWords(word1: string, word2: string): number {
   // your code here
-  
+  return 0;
 }
+
+export {};

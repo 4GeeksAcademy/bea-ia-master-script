@@ -6,7 +6,8 @@
 
 ## 📎 Ejemplo:
 
-```Javascript
+```ts
 let output = computeAverageLengthOfWords('code', 'programs');
 console.log(output); // --> 6
 ```
+

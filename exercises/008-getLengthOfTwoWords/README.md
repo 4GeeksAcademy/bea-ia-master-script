@@ -6,7 +6,8 @@
 
 ## 📎 Example:
 
-```Javascript
+```ts
 let output = getLengthOfTwoWords('some', 'words');
 console.log(output); // --> 9
 ```
+

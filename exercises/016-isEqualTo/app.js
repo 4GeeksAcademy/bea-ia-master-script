@@ -1,1 +1,4 @@
-// Write your function here
+function isEqualTo(a, b) {
+  // your code here
+  return false;
+}

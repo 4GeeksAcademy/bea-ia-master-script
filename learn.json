@@ -1,17 +1,24 @@
 {
-"slug": "master-javascript-programming-exercises",
+"slug": "master-typescript-programming-exercises",
 "duration": 50,
 "difficulty": "easy",
 "title": {
-    "us": "Master Javascript Practicing",
-    "es": "Domina Javascript Practicando"
+    "us": "Master TypeScript Skills Practicing",
+    "es": "Domina Skills de TypeScript Practicando"
 },
-"preview": "https://github.com/4GeeksAcademy/master-javascript-programming-exercises/blob/main/preview.jpeg?raw=true",
-"repository": "https://github.com/4GeeksAcademy/master-javascript-programming-exercises",
+"repository": "https://github.com/4GeeksAcademy/master-typescript-programming-exercises",
 "description": {
-    "us": "165 JavaScript Exercises to Boost Your Skills: Perfect for practicing JavaScript object literals, functions, arrays, loops, and more! Strengthen your coding knowledge with hands-on exercises designed to improve your mastery of essential JS features.",
-    "es": "165 Ejercicios de JavaScript para Mejorar tus Habilidades: Perfectos para practicar literales de objetos, funciones, arreglos, bucles y más en JavaScript. Fortalece tus conocimientos de programación con ejercicios prácticos diseñados para mejorar tu dominio de las funciones esenciales de JS."
+    "us": "170 TypeScript exercises grouped by skill: function design (7.2), collections with arrays/matrices (8.1), and structured object data (8.3). Practice increasing difficulty with strict typing and auto-graded feedback.",
+    "es": "170 ejercicios de TypeScript agrupados por skill: diseño de funciones (7.2), colecciones con arreglos/matrices (8.1) y datos estructurados de objetos (8.3). Practica con dificultad progresiva, tipado estricto y retroalimentación automática."
 },
+"technologies": [
+    "TypeScript",
+    "Functions",
+    "Arrays",
+    "Matrices",
+    "Objects",
+    "Algorithms"
+],
 "videoSolutions": false,
 "projectType": "tutorial",
 "entries": {

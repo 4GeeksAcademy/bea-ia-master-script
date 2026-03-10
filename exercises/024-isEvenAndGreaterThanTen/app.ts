@@ -1,1 +1,6 @@
-// Write your function here
+function isEvenAndGreaterThanTen(num: number): boolean {
+  // your code here
+  return false;
+}
+
+export {};

@@ -1,1 +1,4 @@
-// Write your function here
+function average(a, b) {
+  // your code here
+  return 0;
+}

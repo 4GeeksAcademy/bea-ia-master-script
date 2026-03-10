@@ -10,7 +10,7 @@
 
 ## 📎 Example:
 
-```Javascript
+```ts
 let output = checkAge('Adrian', 22);
 console.log(output); // --> 'Welcome, Adrian!'
 ```
@@ -18,3 +18,4 @@ console.log(output); // --> 'Welcome, Adrian!'
 ## 💡 Hint:
 
 + Naturally, replace `{insert_name_here}` with the given name.
+

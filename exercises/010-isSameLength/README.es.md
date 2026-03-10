@@ -6,7 +6,8 @@
 
 ## 📎 Ejemplo:
 
-```Javascript
+```ts
 let output = isSameLength('words', 'super');
 console.log(output); // --> true
 ```
+

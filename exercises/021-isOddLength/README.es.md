@@ -6,7 +6,8 @@
 
 ## 📎 Ejemplo:
 
-```Javascript
+```ts
 let output = isOddLength('special');
 console.log(output); // true
 ```
+

@@ -6,7 +6,8 @@
 
 ## 📎 Ejemplo:
 
-```Javascript
+```ts
 let output = getLengthOfWord('some');
 console.log(output); // --> 4
 ```
+

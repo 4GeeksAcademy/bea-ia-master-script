@@ -6,7 +6,7 @@
 
 ## 📎 Ejemplo:
 
-```javascript
+```ts
 let output = isOldEnoughToDrink(22);
 console.log(output); // --> true
 ```
@@ -14,3 +14,4 @@ console.log(output); // --> true
 ## 💡 Pista:
 
 + La edad legal para poder beber en los Estados Unidos es de 21 años.
+

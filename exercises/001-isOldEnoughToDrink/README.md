@@ -6,7 +6,7 @@
 
 ## 📎 Example:
 
-```javascript
+```ts
 let output = isOldEnoughToDrink(22);
 console.log(output); // --> true
 ```
@@ -14,3 +14,4 @@ console.log(output); // --> true
 ## 💡 Hint:
 
 + The legal drinking age in the United States is 21.
+

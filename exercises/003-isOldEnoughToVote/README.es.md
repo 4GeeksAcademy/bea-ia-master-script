@@ -6,7 +6,7 @@
 
 ## 📎 Ejemplo:
 
-```Javascript
+```ts
 let output = isOldEnoughToVote(22);
 console.log(output); // --> true
 ```
@@ -14,3 +14,4 @@ console.log(output); // --> true
 ## 💡 Pista:
 
 + La edad legal para poder votar en los Estados Unidos es de 18 años.
+

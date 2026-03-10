@@ -1,7 +1,6 @@
-function getLengthOfThreeWords(word1, word2, word3) {
+function getLengthOfThreeWords(word1: string, word2: string, word3: string): number {
   // your code here
-  
+  return 0;
 }
 
-let output = getLengthOfThreeWords('some', 'other', 'words');
-console.log(output); // --> 14
+export {};

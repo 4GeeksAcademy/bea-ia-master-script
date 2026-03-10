@@ -1,1 +1,4 @@
-// Write your function here
+function isEvenLength(word) {
+  // your code here
+  return false;
+}

@@ -6,7 +6,7 @@ Escribe una función llamada `isOldEnoughToDrive` que dado un número, en este c
 
 ## 📎 Ejemplo:
 
-```javascript
+```ts
 let output = isOldEnoughToDrive(22);
 console.log(output); // --> true
 ```
@@ -14,3 +14,4 @@ console.log(output); // --> true
 ## 💡 Pista:
 
 + La edad legal para poder conducir en los Estados Unidos es de 16 años.
+

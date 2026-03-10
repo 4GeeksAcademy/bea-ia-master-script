@@ -6,7 +6,8 @@
 
 ## 📎 Ejemplo:
 
-```Javascript
+```ts
 let output = getFullName('Joe', 'Smith');
 console.log(output); // --> 'Joe Smith'
 ```
+

@@ -1,13 +1,25 @@
-# Welcome!
- 
-This is the last series of exercises of a long list of JavaScript interactive tutorials published by [@alesanchezr](https://twitter.com/alesanchezr) with [4GeeksAcademy](https://4geeksacademy.com).
+# Welcome to Master TypeScript Skills
 
-If you have not completed them and you are new to JavaScript, I strongly recommend you start with:
+This tutorial is fully integrated with LearnPack and auto-grading.
 
-1. [JS Beginner](https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial).
+## How it works in LearnPack
 
-2. [Arrays](https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial).
+- Use **`app.ts`** as your main student file.
+- LearnPack keeps **`app.js`** as runtime entry so the **Run** button works.
+- Use **Run** to execute your code quickly.
+- Use **Test** to validate against the grading rubric.
 
-3. [Functions](https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial).
+## Suggested workflow
 
-If you feel ready, click `next →` on the top right of the screen to start practicing.
+1. Read the exercise instructions.
+2. Implement your solution in `app.ts`.
+3. Click **Run** to inspect output.
+4. Click **Test** and iterate until all tests pass.
+
+## Curriculum structure
+
+- **Skill 7.2** (Functions and flow): `001-042`
+- **Skill 8.1** (Collections: arrays/matrices): `043-115`
+- **Skill 8.3** (Structured object data in TypeScript): `116-170`
+
+When ready, click **next ?** at the top right.

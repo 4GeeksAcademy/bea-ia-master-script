@@ -6,7 +6,8 @@
 
 ## 📎 Example:
 
-```Javascript
+```ts
 let output = isEitherEven(1, 4);
 console.log(output); // --> true
 ```
+

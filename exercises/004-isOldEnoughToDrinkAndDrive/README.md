@@ -6,7 +6,7 @@
 
 ## 📎 Example:
 
-```Javascript
+```ts
 let output = isOldEnoughToDrinkAndDrive(22);
 console.log(output); // --> false
 ```
@@ -18,3 +18,4 @@ console.log(output); // --> false
 + The legal driving age in the United States is 16.
 
 + It is always illegal to drink and drive in the United States.
+

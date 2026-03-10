@@ -6,7 +6,8 @@
 
 ## 📎 Example:
 
-```Javascript
+```ts
 let output = computeAreaOfATriangle(4, 6);
 console.log(output); // --> 12
 ```
+

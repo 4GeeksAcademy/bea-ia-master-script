@@ -1,68 +1,77 @@
 <!-- hide -->
-# Master JavaScript tutorial at 4Geeks Academy
+# Master TypeScript Skills at 4Geeks Academy
 
 > By [@alesanchezr](https://twitter.com/alesanchezr) and [other contributors](https://github.com/4GeeksAcademy/master-javascript-programming-exercises/graphs/contributors) at [4Geeks Academy](https://4geeksacademy.co/)
 
-*Estas instrucciones [están disponibles en 🇪🇸 español](https://github.com/4GeeksAcademy/master-javascript-programming-exercises/blob/main/README.es.md) :es:*
+*Estas instrucciones est�n disponibles en [espa�ol](https://github.com/4GeeksAcademy/master-javascript-programming-exercises/blob/main/README.es.md) :es:*
 <!-- endhide -->
 
-### 160 exercises about JavaScript
+### 170 auto-graded TypeScript exercises
 
-Complete selection of auto-graded and interactive JavaScript exercises, where you will put your problem-solving skills to the test and learn many of the most popular JavaScript methods. 
-
-> One key thing to learn in the world of coding is that the same problem may have multiple valid solutions, the important thing is that you understand the logic and principles behind them.
+Hands-on exercises focused on functions, collections, and structured object data in TypeScript.
 
 <!-- hide -->
 
-## One click installation (recommended):
+## One-click installation
 
-You can open these exercises in just a few seconds by clicking: [Open in Codespaces](https://codespaces.new/?repo=4GeeksAcademy/master-javascript-programming-exercises) (recommended) or [Open in Gitpod](https://gitpod.io#https://github.com/4GeeksAcademy/master-javascript-programming-exercises).
+Open in [Codespaces](https://codespaces.new/?repo=4GeeksAcademy/master-javascript-programming-exercises) or [Gitpod](https://gitpod.io#https://github.com/4GeeksAcademy/master-javascript-programming-exercises).
 
-> Once you have VSCode open, if exercises don't run automatically you can try typing on your terminal: `$ learnpack start`
+## Local installation
 
-## Local Installation (only if needed)
-
-Clone the repository in your local environment and follow the steps below:
-
-1. Install LearnPack, the package manager for learning tutorials and the node compiler plugin for learnpack, make sure you also have node.js 14:
+1. Install LearnPack:
 
 ```bash
-$ npm i @learnpack/learnpack -g
+npm i @learnpack/learnpack -g
 ```
 
-2. Install the local TypeScript plugin for LearnPack:
+2. Install the local TypeScript LearnPack plugin:
 
 ```bash
-$ learnpack plugins:install file:$(pwd)/learnpack-typescript-plugin
+learnpack plugins:install file:$(pwd)/learnpack-typescript-plugin
 ```
 
-3. Start the tutorial/exercises by running the following command at the same level where your learn.json file is:
+3. Start exercises:
 
 ```bash
-$ learnpack start
+learnpack start
 ```
 <!-- endhide -->
 
-## How are the exercises organized?
+## Curriculum blocks
 
-Each exercise is a small React application containing the following files:
+### Skill 7.2: Learn to name/label flows with functions
 
-1. **app.ts**: Represents the entry TypeScript file that will be executed by the computer (compiled to `app.js` by LearnPack before running tests).
-2. **README.md**: Contains exercise instructions.
-3. **test.js**: Contains the testing script for the exercise (you don't have to open this file).
+- **Range:** `001-042`
+- **Focus:** function declaration, parameters, return types, `void` procedures, primitive values.
+- **Difficulty:** beginner to lower-intermediate.
 
-> Note: The exercises have automatic grading, but it's very rigid and strict, my recommendation is to not take the tests too serious and use them only as a suggestion, or you may get frustrated.
+### Skill 8.1: Collections (arrays and matrices)
 
-## Contributors
+- **Range:** `043-115`
+- **Focus:** array traversal, transformations, filtering, aggregation, matrix access/transform, binary search.
+- **Difficulty:** beginner to intermediate.
 
-Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
+### Skill 8.3: Structured object data in TypeScript
 
-1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribution: (coder) 💻  (idea) 🤔, (build-tests) ⚠️ , (pull-request-review) 👀 (build-tutorial) ✅ (documentation) 📖
+- **Range:** `116-170`
+- **Focus:** interfaces, object literals vs interfaces, optional properties, nested data, mutation vs immutable patterns, pass-by-value/reference.
+- **Difficulty:** intermediate.
 
-2. [Paolo (plucodev)](https://github.com/plucodev), contribution: (bug reports) 🐛, contribution: (coder), (translation) 🌎
+## Traceability table
 
-3. [Ricardo Rodriguez (RickRodriguez8080)](https://github.com/RickRodriguez8080) contribution: (build-tutorial)  ✅, (documentation) 📖
+| Skill | Range | Main objectives | Difficulty |
+|---|---|---|---|
+| 7.2 | 001-042 | Functions, parameters, return values, `void` procedures | Beginner -> Low intermediate |
+| 8.1 | 043-115 | Arrays, matrices, transformations, search algorithms | Beginner -> Intermediate |
+| 8.3 | 116-170 | Typed objects, interfaces, optional fields, object data manipulation | Intermediate |
 
-This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind are welcome!
+## Exercise file contract
 
-This and many other exercises are built by students as part of the 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sánchez](https://twitter.com/alesanchezr) and many other contributors. Find out more about our [Full Stack Developer Course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer), and  [Data Science Bootcamp](https://4geeksacademy.com/us/coding-bootcamps/datascience-machine-learning).
+Each exercise contains:
+
+1. `app.ts`: official student source (starter only).
+2. `app.js`: runtime entry for LearnPack UI `Run` button.
+3. `README.md` + `README.es.md`: instructions.
+4. `test.js`: automatic grading script.
+
+`app.ts` and `app.js` are intentionally starter templates (no solved logic).

@@ -6,7 +6,8 @@
 
 ## 📎 Ejemplo:
 
-```Javascript
+```ts
 let output = average(4, 6);
 console.log(output); // --> 5
 ```
+

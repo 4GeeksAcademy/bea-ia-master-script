@@ -6,7 +6,8 @@
 
 ## 📎 Ejemplo:
 
-```Javascript
+```ts
 let output = square(5);
 console.log(output); // --> 25
 ```
+

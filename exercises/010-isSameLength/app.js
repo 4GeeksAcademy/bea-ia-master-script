@@ -1,1 +1,4 @@
-// Write your function here
+function isSameLength(word1, word2) {
+  // your code here
+  return false;
+}

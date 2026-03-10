@@ -1,4 +1,5 @@
-function isOldEnoughToDrive(age) {
+function isOldEnoughToDrive(age: number) {
   // your code here
-  
 }
+
+export {};

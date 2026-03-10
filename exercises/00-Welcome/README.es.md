@@ -1,13 +1,25 @@
-# Â¡Bienvenido!
+# Bienvenido a Master TypeScript Skills
 
-Este es el Ãºltimo de una serie de ejercicios publicados para practicar JavaScript desde cero por [@alesanchezr](https://twitter.com/alesanchezr) y [4GeeksAcademy](https://4geeksacademy.com).
+Este tutorial está integrado con LearnPack y evaluación automática.
 
-Si no has completado los otros ejercicios te recomiendo que empieces por allÃ­:
+## Cómo funciona en LearnPack
 
-1. [JS para Principiantes](https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial).
+- Usa **`app.ts`** como archivo principal del estudiante.
+- LearnPack mantiene **`app.js`** como entry runtime para que funcione el botón **Run**.
+- Usa **Run** para ejecutar tu código rápidamente.
+- Usa **Test** para validar contra la rúbrica de evaluación.
 
-2. [Arreglos](https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial).
+## Flujo recomendado
 
-3. [Funciones](https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial).
+1. Lee las instrucciones del ejercicio.
+2. Implementa tu solución en `app.ts`.
+3. Haz clic en **Run** para revisar salida.
+4. Haz clic en **Test** y repite hasta pasar todos los tests.
 
-Si ya los has completado o te sientes confiado, puedes presionar el botÃ³n `next â†’` en la parte superior derecha de estas instrucciones para empezar a practicar. Â¡Mucho Ã©xito!
+## Estructura curricular
+
+- **Skill 7.2** (Funciones y flujo): `001-042`
+- **Skill 8.1** (Colecciones: arreglos/matrices): `043-115`
+- **Skill 8.3** (Datos estructurados de objetos en TypeScript): `116-170`
+
+Cuando estés listo, haz clic en **next ?** arriba a la derecha.

@@ -1,1 +1,4 @@
-// Write your function here
+function isEven(num) {
+  // your code here
+  return false;
+}

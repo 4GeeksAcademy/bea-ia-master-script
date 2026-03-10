@@ -1,1 +1,4 @@
-// Write your function here
+function areBothOdd(a, b) {
+  // your code here
+  return false;
+}

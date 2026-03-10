@@ -1,0 +1,3 @@
+function getSquaredElementsAtProperty(obj, key, arg3, arg4) {
+  // your code here
+}

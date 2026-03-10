@@ -10,3 +10,4 @@
 let output = areBothOdd(1, 3);
 console.log(output); // --> true
 ```
+

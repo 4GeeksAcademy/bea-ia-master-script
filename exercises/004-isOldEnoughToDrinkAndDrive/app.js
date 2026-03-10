@@ -1,5 +1,4 @@
-function isOldEnoughToDrinkAndDrive(age:number) {
+function isOldEnoughToDrinkAndDrive(age) {
   // your code here
-  if(age >= 21) return true;
-  else return false;
+  return false;
 }

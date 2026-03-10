@@ -6,7 +6,7 @@
 
 ## 📎 Ejemplo:
 
-```Javascript
+```ts
 let output = equalsTen(9);
 console.log(output); // --> false
 ```
@@ -14,3 +14,4 @@ console.log(output); // --> false
 ## 💡 Pista:
 
 + Recuerda usar tres signos iguales (===) para comparar valores exactos. [Haz clic aquí para mayor info](https://bytearcher.com/articles/equality-comparison-operator-javascript)
+
