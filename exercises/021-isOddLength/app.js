@@ -1,4 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function isOddLength(word) {
-  // your code here
-  return false;
+    // your code here
+    if (word.length % 2 > 0) {
+        return true;
+    }
+    else {
+        return false;
+    }
 }

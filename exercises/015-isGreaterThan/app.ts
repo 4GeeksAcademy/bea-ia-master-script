@@ -1,6 +1,7 @@
 function isGreaterThan(num1: number, num2: number): boolean {
-  // your code here
-  return false;
+  // your code 
+  if(num1<num2){return true}else{return false}
+  ;
 }
 
 export {};

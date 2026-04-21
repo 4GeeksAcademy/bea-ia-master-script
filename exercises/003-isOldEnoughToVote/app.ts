@@ -1,6 +1,7 @@
 function isOldEnoughToVote(age: number): boolean {
   // your code here
-    return false;
+   if(age >= 18) return true;
+  else return false;
 }
 
 export {};
