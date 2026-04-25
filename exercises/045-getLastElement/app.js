@@ -1,3 +1,6 @@
-function getLastElement(array, arg2) {
-  // your code here
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+function getLastElement(array) {
+    // your code here
+    return array[array.length - 1];
 }

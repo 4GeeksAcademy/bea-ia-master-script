@@ -1,3 +1,4 @@
+"use strict";
 function getNthElement(array, n) {
-  // your code here
+    return array[n];
 }
