@@ -1,4 +1,10 @@
-function printUserBadge(name, level) {
-  // your code here
-  
+function printUserBadge(name: string, level: number): void {
+  const badge = `
+===== USER BADGE =====
+Nombre: ${name}
+Nivel: ${level}
+======================
+  `;
+
+  console.log(badge);
 }

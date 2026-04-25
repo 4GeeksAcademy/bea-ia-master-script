@@ -1,6 +1,7 @@
 function computePower(num: number, exponent: number): number {
   // your code here
-  return 0;
+  let result = Math.pow(num, exponent);
+    return result;
 }
 
 export {};
